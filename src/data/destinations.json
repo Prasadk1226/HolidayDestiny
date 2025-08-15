@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Bali, Indonesia",
+    "description": "Tropical paradise with beautiful beaches, temples, and vibrant culture",
+    "image": "/images/bali.jpg",
+    "price": "$1,200",
+    "duration": "7 days",
+    "rating": 4.8,
+    "highlights": ["Beach resorts", "Temple tours", "Rice terraces", "Cultural shows"],
+    "category": "Beach"
+  },
+  {
+    "id": 2,
+    "name": "Santorini, Greece",
+    "description": "Stunning white-washed buildings and breathtaking sunsets",
+    "image": "/images/santorini.jpg",
+    "price": "$1,800",
+    "duration": "6 days",
+    "rating": 4.9,
+    "highlights": ["Sunset views", "Wine tasting", "Island hopping", "Luxury hotels"],
+    "category": "Island"
+  },
+  {
+    "id": 3,
+    "name": "Swiss Alps",
+    "description": "Majestic mountains perfect for skiing and outdoor adventures",
+    "image": "/images/swiss-alps.jpg",
+    "price": "$2,100",
+    "duration": "8 days",
+    "rating": 4.7,
+    "highlights": ["Skiing", "Mountain hiking", "Scenic trains", "Chocolate tours"],
+    "category": "Mountain"
+  },
+  {
+    "id": 4,
+    "name": "Tokyo, Japan",
+    "description": "Modern metropolis blending tradition with cutting-edge technology",
+    "image": "/images/tokyo.jpg",
+    "price": "$1,500",
+    "duration": "5 days",
+    "rating": 4.6,
+    "highlights": ["Sushi making", "Temple visits", "Shopping districts", "Cherry blossoms"],
+    "category": "City"
+  },
+  {
+    "id": 5,
+    "name": "Machu Picchu, Peru",
+    "description": "Ancient Incan citadel high in the Andes mountains",
+    "image": "/images/machu-picchu.jpg",
+    "price": "$1,900",
+    "duration": "9 days",
+    "rating": 4.9,
+    "highlights": ["Inca Trail", "Archaeological sites", "Mountain views", "Cultural history"],
+    "category": "Adventure"
+  },
+  {
+    "id": 6,
+    "name": "Maldives",
+    "description": "Crystal clear waters and overwater bungalows in paradise",
+    "image": "/images/maldives.jpg",
+    "price": "$2,500",
+    "duration": "7 days",
+    "rating": 4.9,
+    "highlights": ["Overwater villas", "Snorkeling", "Spa treatments", "Private beaches"],
+    "category": "Luxury"
+  }
+]
