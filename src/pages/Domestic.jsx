@@ -24,20 +24,21 @@ const Domestic = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section 
-      className="bg-cover bg-center text-white min-h-[45vh] flex items-center"
-      // style={{ backgroundImage: `url(${domesticImage})` }}
-      style={{ backgroundImage: `url(${'https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg'})` }}
-    >
-      <div className="container-custom text-center">
-        <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
-          Domestic <span className="gradient-text">Trips</span>
-        </h1>
-        <p className="text-xl text-white/90 max-w-2xl mx-auto">
-          Handpicked travel packages designed to give you the best experience
-        </p>
-      </div>
-    </section>
+      <section
+  className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
+  style={{ backgroundImage: `url('https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg')` }}
+>
+  {/* Black overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+  <div className="container-custom text-center relative z-10">
+    <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
+      Domestic <span className="gradient-text bg-clip-text text-transparent">Trips</span>
+    </h1>
+    <p className="text-xl text-white/90 max-w-2xl mx-auto">
+      Handpicked travel packages designed to give you the best experience
+    </p>
+  </div>
+</section>
 
       {/* Search and Filter Section */}
       <section className="bg-white py-12 border-b">

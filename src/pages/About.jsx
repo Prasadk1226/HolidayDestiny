@@ -251,7 +251,7 @@ const About = () => {
 
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center text-white min-h-[45vh] flex items-center"
+        className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
         style={{
           backgroundImage: `url(${"https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg"})`,
         }}
@@ -275,7 +275,7 @@ const About = () => {
 
 
       {/* About Us Section */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             About <span className="gradient-text">Us</span>
@@ -331,10 +331,7 @@ const About = () => {
                 to detail, and a deep understanding of what makes travel truly
                 special.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button className="btn-primary">Learn More</button>
-                <button className="btn-outline">Our Story</button>
-              </div>
+             
             </div>
             <div className="relative">
               <img
@@ -393,7 +390,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">

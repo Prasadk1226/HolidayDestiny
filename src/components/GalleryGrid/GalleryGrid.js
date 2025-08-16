@@ -11,7 +11,7 @@ const GalleryGrid = ({ images = [], title = "Travel Gallery" }) => {
       id: 1,
       src: 'https://via.placeholder.com/400x300/667eea/ffffff?text=Bali+Beach',
       alt: 'Bali Beach',
-      category: 'beach',
+      category: 'international',
       title: 'Bali Beach Paradise'
     },
     {

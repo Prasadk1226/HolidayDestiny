@@ -380,7 +380,7 @@ const PackageCard = ({ package: travelPackage }) => {
         </div>
 
         {/* Pricing */}
-        <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-lg p-4 mb-6 text-center">
+        {/* <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-lg p-4 mb-6 text-center">
           <div className="flex items-center justify-center gap-3 mb-1">
             <span className="text-2xl font-bold text-primary-600">{price}</span>
             {originalPrice && (
@@ -388,15 +388,15 @@ const PackageCard = ({ package: travelPackage }) => {
             )}
           </div>
           <span className="text-sm text-gray-600">per person</span>
-        </div>
+        </div> */}
 
         {/* Actions */}
-        <div className="flex gap-3">
+        {/* <div className="flex gap-3">
           <Link to={`/domestic/${id}`} className="flex-1 btn-primary text-center py-2">
             View Details
           </Link>
           <button className="flex-1 btn-outline py-2">Book Now</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

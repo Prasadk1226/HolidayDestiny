@@ -175,10 +175,10 @@ const Home = () => {
               ssr={true}
               infinite={true}
               autoPlay={true}
-              autoPlaySpeed={1500}
+              autoPlaySpeed={4000}
               keyBoardControl={true}
               customTransition="all .5"
-              transitionDuration={500}
+              transitionDuration={1000}
               containerClass="carousel-container"
               itemClass="carousel-item-padding-40-px"
               renderButtonGroupOutside={true}
@@ -218,10 +218,10 @@ const Home = () => {
               ssr={true}
               infinite={true}
               autoPlay={true}
-              autoPlaySpeed={1500}
+              autoPlaySpeed={4000}
               keyBoardControl={true}
               customTransition="all .5"
-              transitionDuration={500}
+              transitionDuration={300}
               containerClass="carousel-container"
               itemClass="carousel-item-padding-40-px"
               renderButtonGroupOutside={true}
@@ -257,10 +257,15 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
+              "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+              "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
               "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
               "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
               "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+              "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+              "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+              "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+              
             ].map((image, index) => (
               <div
                 key={index}

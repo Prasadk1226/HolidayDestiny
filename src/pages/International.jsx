@@ -25,19 +25,20 @@ const International = () => {
 
       {/* Hero Section */}
       <section
-      className="bg-cover bg-center text-white min-h-[45vh] flex items-center"
-      // style={{ backgroundImage: `url(${yourBackgroundImage})` }}
-      style={{ backgroundImage: `url(${'https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg'})` }}
-    >
-      <div className="container-custom text-center">
-        <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
-          Explore <span className="gradient-text">International</span>
-        </h1>
-        <p className="text-xl text-white/90 max-w-2xl mx-auto">
-          Discover amazing places around the world and find your next adventure
-        </p>
-      </div>
-    </section>
+  className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
+  style={{ backgroundImage: `url('https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg')` }}
+>
+  {/* Black overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+  <div className="container-custom text-center relative z-10">
+    <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
+      Explore <span className="gradient-text bg-clip-text text-transparent">International</span>
+    </h1>
+    <p className="text-xl text-white/90 max-w-2xl mx-auto">
+      Discover amazing places around the world and find your next adventure
+    </p>
+  </div>
+</section>
 
       {/* Search and Filter Section */}
       <section className="bg-white py-12 border-b">

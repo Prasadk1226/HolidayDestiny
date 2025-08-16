@@ -476,23 +476,25 @@ const Contact = () => {
 
       {/* Hero Section */}
       <section
-        className="bg-cover bg-center text-white min-h-[45vh] flex items-center"
-        style={{
-          backgroundImage: `url('https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg')`
-        }}
-      >
-        <div className="container-custom text-center">
-          <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
-            Get in{' '}
-            <span className="gradient-text">
-              Touch
-            </span>
-          </h1>
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Ready to start your next adventure? Let us help you plan the perfect trip!
-          </p>
-        </div>
-      </section>
+  className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
+  style={{
+    backgroundImage: `url('https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg')`
+  }}
+>
+  {/* Black overlay with absolute positioning */}
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+  <div className="container-custom text-center relative z-10">
+    <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
+      Get in{' '}
+      <span className="gradient-text bg-clip-text text-transparent">
+        Touch
+      </span>
+    </h1>
+    <p className="text-xl text-white/90 max-w-2xl mx-auto">
+      Ready to start your next adventure? Let us help you plan the perfect trip!
+    </p>
+  </div>
+</section>
 
       {/* Contact Form Section */}
       <section className="section-padding bg-white">
@@ -500,7 +502,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Send us a Message</h2>
+              <h2 className="text-3xl font-bold gradient-text mb-6">Send us a Message</h2>
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -723,7 +725,7 @@ const Contact = () => {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Information</h2>
+              <h2 className="text-3xl font-bold gradient-text mb-6">Contact Information</h2>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4 p-6 bg-gray-50 rounded-lg">

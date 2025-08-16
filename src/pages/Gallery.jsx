@@ -10,68 +10,68 @@ const Gallery = () => {
       id: 1,
       src: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Bali Beach Paradise',
-      category: 'beach',
+      category: 'international',
       title: 'Bali Beach Paradise'
     },
     {
       id: 2,
       src: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Santorini Sunset Views',
-      category: 'island',
+      category: 'international',
       title: 'Santorini Sunset Views'
     },
     {
       id: 3,
       src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Swiss Alpine Adventure',
-      category: 'mountain',
+      category: 'domestic',
       title: 'Swiss Alpine Adventure'
     },
     {
       id: 4,
       src: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
       alt: 'Tokyo Urban Life',
-      category: 'city',
+      category: 'domestic',
       title: 'Tokyo Urban Life'
     },
     {
       id: 5,
       src: 'https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Machu Picchu Ruins',
-      category: 'adventure',
+      category: 'international',
       title: 'Machu Picchu Ruins'
     },
     {
       id: 6,
       src: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Maldives Overwater Villa',
-      category: 'luxury',
+      category: 'domestic',
       title: 'Maldives Overwater Villa'
     },
     {
       id: 7,
       src: 'https://images.unsplash.com/photo-1502602898534-8610c4b5b1c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Paris Eiffel Tower',
-      category: 'city',
+      category: 'international',
       title: 'Paris Eiffel Tower'
     },
     {
       id: 8,
       src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
       alt: 'Desert Safari Adventure',
-      category: 'adventure',
+      category: 'domestic',
       title: 'Desert Safari Adventure'
     }
   ];
 
   const categories = [
     { id: 'all', name: 'All' },
-    { id: 'beach', name: 'Beach' },
-    { id: 'mountain', name: 'Mountain' },
-    { id: 'city', name: 'City' },
-    { id: 'island', name: 'Island' },
-    { id: 'adventure', name: 'Adventure' },
-    { id: 'luxury', name: 'Luxury' }
+    { id: 'international', name: 'International' },
+    { id: 'domestic', name: 'Domestic' },
+    // { id: 'city', name: 'City' },
+    // { id: 'island', name: 'Island' },
+    // { id: 'adventure', name: 'Adventure' },
+    // { id: 'luxury', name: 'Luxury' }
   ];
 
   const filteredImages = filter === 'all' 
@@ -94,20 +94,21 @@ const Gallery = () => {
       </Helmet>
 
       {/* Hero Section */}
-      <section 
-      className="bg-cover bg-center text-white min-h-[45vh] flex items-center"
-      // style={{ backgroundImage: `url(${travelGalleryImage})` }}
-      style={{ backgroundImage: `url(${'https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg'})` }}
-    >
-      <div className="container-custom text-center">
-        <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
-          Travel <span className="gradient-text">Gallery</span>
-        </h1>
-        <p className="text-xl text-white/90 max-w-2xl mx-auto">
-          Explore stunning destinations through our curated collection of travel photos
-        </p>
-      </div>
-    </section>
+      <section
+  className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
+  style={{ backgroundImage: `url('https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg')` }}
+>
+  {/* Black overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+  <div className="container-custom text-center relative z-10">
+    <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
+      Travel <span className="gradient-text bg-clip-text text-transparent">Gallery</span>
+    </h1>
+    <p className="text-xl text-white/90 max-w-2xl mx-auto">
+      Explore stunning destinations through our curated collection of travel photos
+    </p>
+  </div>
+</section>
 
       {/* Filter Section */}
       <section className="bg-white py-12 border-b">

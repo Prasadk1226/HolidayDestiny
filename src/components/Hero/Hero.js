@@ -121,22 +121,11 @@
 // export default Hero; 
 
 
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
-  // Use the useNavigate hook to programmatically navigate
-  const navigate = useNavigate();
-  const [searchQuery, setSearchQuery] = useState('');
 
-  const popularInternational = [
-    'Bali, Indonesia',
-    'Santorini, Greece',
-    'Swiss Alps',
-    'Tokyo, Japan',
-    'Machu Picchu, Peru',
-    'Maldives'
-  ];
 
  
 
@@ -145,7 +134,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          src="https://wallpapers.com/images/featured/travel-background-we1aqvt6zacj99uk.jpg"
           alt="Beautiful travel destination"
           className="w-full h-full object-cover"
         />

@@ -20,7 +20,7 @@ const DestinationCard = ({ destination }) => {
     "https://picsum.photos/600/400?random=3",
   ];
 
-  const gallery = images.length > 0 ? images : placeholderImages;
+  const gallery = images.length >= 0 ? images : placeholderImages;
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

@@ -141,7 +141,7 @@
 
 /* red-theme */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -161,7 +161,7 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-gradient-to-r from-amber-400 to-red-500 hover:from-amber-500 hover:to-red-600 text-gray-800 font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:from-red-500 hover:to-red-300 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2;
+    @apply bg-gradient-to-r from-amber-400 to-red-500 hover:from-amber-500 hover:to-red-600 text-gray-800 font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2;
   }
   
   .btn-secondary {
@@ -191,7 +191,7 @@
   .gradient-bg {
     @apply bg-gradient-to-r from-red-600 to-red-100;
   }
-} */
+}
 
 /* Emerald Mist */
 
@@ -241,7 +241,7 @@
 
 
 /* Royal Voilet */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -283,7 +283,7 @@
   .gradient-bg {
     @apply bg-gradient-to-r from-violet-600 to-purple-100;
   }
-}
+} */
 
 
 

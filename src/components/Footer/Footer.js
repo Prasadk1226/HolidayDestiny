@@ -46,19 +46,19 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-primary-text">
-      <div className="container-custom py-16">
+    <footer className=" bg-gradient-to-r from-red-200 to-red-100">
+      <div className="container-custom  py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden bg-white/10 backdrop-blur-sm">
+              <div className="w-24 h-24 rounded-xl flex items-center justify-center overflow-hidden bg-white/10 backdrop-blur-sm">
                 <img 
                   src={HolidayLogo}
                   alt="Holiday Destiny Logo" 
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-3xl font-bold font-display">
+              <span className="text-3xl gradient-text font-bold font-display">
                 Holiday Destiny
               </span>
             </div>
@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">International</h4>
+            <h4 className="text-lg font-semibold text-primary-text mb-4">International</h4>
             <ul className="space-y-2">
               {footerLinks.International.map((link, index) => (
                 <li key={index}>
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Domestic</h4>
+            <h4 className="text-lg font-semibold text-primary-text mb-4">Domestic</h4>
             <ul className="space-y-2">
               {footerLinks.Domestic.map((link, index) => (
                 <li key={index}>
@@ -115,7 +115,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-semibold text-primary-text mb-4">Services</h4>
             <ul className="space-y-2">
               {footerLinks.services.map((link, index) => (
                 <li key={index}>
@@ -131,24 +131,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="opacity-60 text-sm">
-              © {currentYear} Holiday Destiny. All rights reserved.
-            </div>
-            <div className="flex space-x-6">
-              <Link to="/privacy" className="opacity-60 hover:opacity-100 transition-colors text-sm">
-                Privacy Policy
-              </Link>
-              <Link to="/terms" className="opacity-60 hover:opacity-100 transition-colors text-sm">
-                Terms of Service
-              </Link>
-              <Link to="/cookies" className="opacity-60 hover:opacity-100 transition-colors text-sm">
-                Cookie Policy
-              </Link>
-            </div>
-          </div>
-        </div>
+        
 
         <div className="mt-8 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 opacity-60 text-sm">
@@ -169,6 +152,24 @@ const Footer = () => {
               <span className="text-lg">📍</span>
               <span>123 Travel Street, Adventure City, AC 12345</span>
             </div>
+          </div>
+        </div>
+        <div className="mt-12 pt-8 border-t border-white/20">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="opacity-60 text-sm">
+              © {currentYear} Holiday Destiny. All rights reserved.
+            </div>
+            {/* <div className="flex space-x-6">
+              <Link to="/privacy" className="opacity-60 hover:opacity-100 transition-colors text-sm">
+                Privacy Policy
+              </Link>
+              <Link to="/terms" className="opacity-60 hover:opacity-100 transition-colors text-sm">
+                Terms of Service
+              </Link>
+              <Link to="/cookies" className="opacity-60 hover:opacity-100 transition-colors text-sm">
+                Cookie Policy
+              </Link>
+            </div> */}
           </div>
         </div>
       </div>
