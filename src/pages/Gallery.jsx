@@ -101,7 +101,7 @@ const Gallery = () => {
     >
       <div className="container-custom text-center">
         <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
-          Travel <span className="bg-gradient-to-r from-yellow-200 to-red-400 bg-clip-text text-transparent">Gallery</span>
+          Travel <span className="gradient-text">Gallery</span>
         </h1>
         <p className="text-xl text-white/90 max-w-2xl mx-auto">
           Explore stunning destinations through our curated collection of travel photos

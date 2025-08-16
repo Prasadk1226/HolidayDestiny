@@ -1,0 +1,142 @@
+[
+  {
+    "id": "Dubai, UAE",
+    "name": "Dubai, UAE",
+    "description": "Discover Dubai and Abu Dhabi with iconic landmarks, thrilling desert safaris, vibrant city tours, and unforgettable views from Burj Khalifa.",
+    "images": [
+      "/images/dubai1.jpg",
+      "/images/dubai2.jpg",
+      "/images/dubai3.jpg"
+    ],
+    "duration": "6 days",
+    "rating": 4.8,
+    "highlights": [
+      "Dhow cruise marina",
+      "Dubai city tour",
+      "Desert Safari",
+      "Abu Dhabi city tour",
+      "Burj Khalifa 124th floor"
+    ],
+    "category": "City"
+  },
+  {
+    "id": "Sri Lanka",
+    "name": "Sri Lanka",
+    "description": "Experience Sri Lanka’s beauty with cultural temples, ancient rock fortresses, lush gardens, and wildlife encounters in this island paradise journey.",
+    "images": [
+      "/images/srilanka1.jpg",
+      "/images/srilanka2.jpg",
+      "/images/srilanka3.jpg"
+    ],
+    "duration": "6 days",
+    "rating": 4.9,
+    "highlights": [
+      "Colombo city tour",
+      "Sigiriya Lion Rock",
+      "Dambulla Caves",
+      "Temple of Tooth Relic",
+      "Peradeniya Garden"
+    ],
+    "category": "Adventure"
+  },
+  {
+    "id": "Almaty, Kazakhstan",
+    "name": "Almaty, Kazakhstan",
+    "description": "Explore Almaty with a scenic city tour, bustling bazaars, breathtaking mountains, and natural landscapes that showcase Kazakhstan’s charm and culture.",
+    "images": [
+      "/images/almaty1.jpg",
+      "/images/almaty2.jpg",
+      "/images/almaty3.jpg"
+    ],
+    "duration": "5 days",
+    "rating": 4.5,
+    "highlights": [
+      "Almaty City Tour",
+      "Green Bazaar",
+      "Shymbulak Resort",
+      "Kok-Tobe Hill",
+      "Arasan Gorge"
+    ],
+    "category": "Mountain"
+  },
+  {
+    "id": "Europe & London",
+    "name": "Europe & London",
+    "description": "Travel across Europe and London with famous attractions, stunning architecture, and cultural experiences from Paris to Rome in one adventure.",
+    "images": [
+      "/images/europe1.jpg",
+      "/images/europe2.jpg",
+      "/images/europe3.jpg"
+    ],
+    "duration": "16 days",
+    "rating": 5.0,
+    "highlights": [
+      "London Eye",
+      "Eiffel Tower",
+      "Disneyland Paris",
+      "Mount Titlis",
+      "Colosseum Rome"
+    ],
+    "category": "City"
+  },
+  {
+    "id": "Baku, Azerbaijan",
+    "name": "Baku, Azerbaijan",
+    "description": "Visit Baku’s blend of medieval old city and futuristic architecture, while enjoying rich culture, history, and scenic tours of nearby regions.",
+    "images": [
+      "/images/baku1.jpg",
+      "/images/baku2.jpg",
+      "/images/baku3.jpg"
+    ],
+    "duration": "5 days",
+    "rating": 4.5,
+    "highlights": [
+      "Baku City Tour",
+      "Absheron Tour",
+      "Gobustan Tour",
+      "Gabala Day Tour",
+      "Heydar Aliyev Center"
+    ],
+    "category": "City"
+  },
+  {
+    "id": "Vietnam",
+    "name": "Vietnam",
+    "description": "Discover Vietnam with cultural landmarks, serene bays, bustling cities, and iconic bridges, blending modern lifestyle with ancient traditions beautifully.",
+    "images": [
+      "/images/vietnam1.jpg",
+      "/images/vietnam2.jpg",
+      "/images/vietnam3.jpg"
+    ],
+    "duration": "7 days",
+    "rating": 4.6,
+    "highlights": [
+      "Hanoi city tour",
+      "Ha Long Bay Cruise",
+      "Golden Hand Bridge",
+      "Da Nang Tour",
+      "Ho Chi Minh City"
+    ],
+    "category": "Adventure"
+  },
+  {
+    "id": "Bali, Indonesia",
+    "name": "Bali, Indonesia",
+    "description": "Enjoy Bali’s tropical charm with island tours, traditional dances, temple visits, and thrilling water sports, all set in scenic paradise views.",
+    "images": [
+      "/images/bali1.jpg",
+      "/images/bali2.jpg",
+      "/images/bali3.jpg"
+    ],
+    "duration": "6 days",
+    "rating": 4.8,
+    "highlights": [
+      "Water sports Tanjung Benoa",
+      "Uluwatu Temple",
+      "Nusa Penida Tour",
+      "Ubud Market",
+      "Kintamani Volcano"
+    ],
+    "category": "Beach"
+  }
+]

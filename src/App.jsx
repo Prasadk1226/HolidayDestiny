@@ -5,8 +5,8 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Home from './pages/Home';
-import Destinations from './pages/Destinations';
-import Packages from './pages/Packages';
+import International from './pages/International';
+import Domestic from './pages/Domestic';
 import Gallery from './pages/Gallery';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -21,8 +21,8 @@ function App() {
           <main className="pt-16 md:pt-20">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/destinations" element={<Destinations />} />
-              <Route path="/packages" element={<Packages />} />
+              <Route path="/international" element={<International />} />
+              <Route path="/domestic" element={<Domestic />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />

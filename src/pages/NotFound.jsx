@@ -6,10 +6,10 @@ const NotFound = () => {
   const navigate = useNavigate();
   const [isHovered, setIsHovered] = useState(false);
 
-  const destinations = [
+  const International = [
     { name: 'Home', path: '/' },
-    { name: 'Destinations', path: '/destinations' },
-    { name: 'Packages', path: '/packages' },
+    { name: 'International', path: '/international' },
+    { name: 'domestic', path: '/domestic' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' }
@@ -102,7 +102,7 @@ const NotFound = () => {
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-6 text-gray-800">Quick Navigation</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-2xl mx-auto">
-                {destinations.map((dest, index) => (
+                {International.map((dest, index) => (
                   <Link
                     key={dest.path}
                     to={dest.path}
@@ -113,8 +113,8 @@ const NotFound = () => {
                     <div className="text-center">
                       <div className="text-2xl mb-2 group-hover:scale-110 transition-transform duration-300">
                         {dest.name === 'Home' && '🏠'}
-                        {dest.name === 'Destinations' && '🗺️'}
-                        {dest.name === 'Packages' && '📦'}
+                        {dest.name === 'International' && '🗺️'}
+                        {dest.name === 'Domes' && '📦'}
                         {dest.name === 'Gallery' && '📸'}
                         {dest.name === 'About' && 'ℹ️'}
                         {dest.name === 'Contact' && '📞'}

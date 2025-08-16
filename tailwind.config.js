@@ -54,6 +54,8 @@ module.exports = {
         'bounce-slow': 'bounce 2s infinite',
         'float': 'float 3s ease-in-out infinite',
         'float-delayed': 'float 3s ease-in-out infinite 1.5s',
+        'scroll-left': 'scrollLeft 10s linear infinite',
+        'scroll-right': 'scrollRight 10s linear infinite',
       },
       keyframes: {
         fadeIn: {
@@ -68,6 +70,14 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-20px)' },
         },
+        scrollLeft: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+        scrollRight: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(50%)' },
+        },
       },
       backgroundImage: {
         'hero-pattern': "url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23ffffff\" fill-opacity=\"0.05\"%3E%3Ccircle cx=\"30\" cy=\"30\" r=\"4\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')",
@@ -78,4 +88,4 @@ module.exports = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
-} 
+}
