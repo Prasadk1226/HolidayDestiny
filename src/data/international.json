@@ -1,13 +1,14 @@
 [
   {
-    "id": "Dubai, UAE",
+    "id": "Dubai",
     "name": "Dubai, UAE",
     "description": "Discover Dubai and Abu Dhabi with iconic landmarks, thrilling desert safaris, vibrant city tours, and unforgettable views from Burj Khalifa.",
     "images": [
-      "/images/international/Malaysia/tour2Img2.jpg",
-      "/images/international/Malaysia/tour2Img3.jpg",
-      "/images/international/Malaysia/tour2Img8.jpg",
-      "/images/international/Malaysia/tour2Img7.jpg"
+      "/images/international/UAE/dubai1.png",
+      "/images/international/UAE/dubai2.png",
+      "/images/international/UAE/dubai3.png"
+
+
     ],
     "duration": "6 days",
     "rating": 4.8,
@@ -25,9 +26,9 @@
     "name": "Sri Lanka",
     "description": "Experience Sri Lanka’s beauty with cultural temples, ancient rock fortresses, lush gardens, and wildlife encounters in this island paradise journey.",
     "images": [
-      "/images/srilanka1.jpg",
-      "/images/srilanka2.jpg",
-      "/images/srilanka3.jpg"
+      "/images/international/Srilanka/srilanka1.png",
+      "/images/international/Srilanka/srilanka2.png",
+      "/images/international/Srilanka/srilanka3.png"
     ],
     "duration": "6 days",
     "rating": 4.9,
@@ -41,13 +42,13 @@
     "category": "Adventure"
   },
   {
-    "id": "Almaty, Kazakhstan",
+    "id": "Almaty",
     "name": "Almaty, Kazakhstan",
     "description": "Explore Almaty with a scenic city tour, bustling bazaars, breathtaking mountains, and natural landscapes that showcase Kazakhstan’s charm and culture.",
     "images": [
-      "/images/almaty1.jpg",
-      "/images/almaty2.jpg",
-      "/images/almaty3.jpg"
+      "/images/international/kazakisthan/kazakisthan1.png",
+      "/images/international/kazakisthan/kazakisthan2.png",
+      "/images/international/kazakisthan/kazakisthan3.png"
     ],
     "duration": "5 days",
     "rating": 4.5,
@@ -65,9 +66,10 @@
     "name": "Europe & London",
     "description": "Travel across Europe and London with famous attractions, stunning architecture, and cultural experiences from Paris to Rome in one adventure.",
     "images": [
-      "/images/europe1.jpg",
-      "/images/europe2.jpg",
-      "/images/europe3.jpg"
+      "/images/international/europe/europe1.png",
+      "/images/international/europe/europe2.png",
+      "/images/international/europe/europe3.png"
+
     ],
     "duration": "16 days",
     "rating": 5.0,
@@ -81,13 +83,13 @@
     "category": "City"
   },
   {
-    "id": "Baku, Azerbaijan",
+    "id": "Baku",
     "name": "Baku, Azerbaijan",
     "description": "Visit Baku’s blend of medieval old city and futuristic architecture, while enjoying rich culture, history, and scenic tours of nearby regions.",
     "images": [
-      "/images/baku1.jpg",
-      "/images/baku2.jpg",
-      "/images/baku3.jpg"
+      "/images/international/Baku/baku1.png",
+      "/images/international/Baku/baku2.png",
+      "/images/international/Baku/baku3.png"
     ],
     "duration": "5 days",
     "rating": 4.5,
@@ -105,9 +107,10 @@
     "name": "Vietnam",
     "description": "Discover Vietnam with cultural landmarks, serene bays, bustling cities, and iconic bridges, blending modern lifestyle with ancient traditions beautifully.",
     "images": [
-      "/images/vietnam1.jpg",
-      "/images/vietnam2.jpg",
-      "/images/vietnam3.jpg"
+      "/images/international/vietnam/vietnam1.png",
+      "/images/international/vietnam/vietnam2.png",
+      "/images/international/vietnam/vietnam3.png"
+
     ],
     "duration": "7 days",
     "rating": 4.6,
@@ -121,13 +124,13 @@
     "category": "Adventure"
   },
   {
-    "id": "Bali, Indonesia",
+    "id": "Bali",
     "name": "Bali, Indonesia",
     "description": "Enjoy Bali’s tropical charm with island tours, traditional dances, temple visits, and thrilling water sports, all set in scenic paradise views.",
     "images": [
-      "/images/bali1.jpg",
-      "/images/bali2.jpg",
-      "/images/bali3.jpg"
+      "/images/international/Bali/bali1.png",
+      "/images/international/Bali/bali2.png",
+      "/images/international/Bali/bali3.png"
     ],
     "duration": "6 days",
     "rating": 4.8,
@@ -137,6 +140,32 @@
       "Nusa Penida Tour",
       "Ubud Market",
       "Kintamani Volcano"
+    ],
+    "category": "Beach"
+  },
+  {
+    "id": "Andaman",
+    "name": "Andaman Package",
+    "description": "A 4-night, 5-day tour to the Andaman Islands, covering Port Blair and Havelock Island, with visits to Corbyn's Cove beach and a trip to the scenic Elephant beach.",
+    "images": [
+      "/images/international/Andaman/andaman1.png",
+      "/images/international/Andaman/andaman2.png",
+      "/images/international/Andaman/andaman3.png"
+    ],
+    "duration": "5 days",
+    "rating": 4.7,
+    "Domestic": ["Port Blair", "Havelock Island"],
+    "includes": [
+      "Hotel accommodation in Port Blair and Havelock Island",
+      "Local representative and vehicle for transfers and sightseeing",
+      "Packed breakfast from the hotel",
+      "Speedboat trip to Elephant beach"
+    ],
+    "highlights": [
+      "Corbyn's Cove beach",
+      "Light & Sound Show at Cellular Jail",
+      "Radha nagar beach",
+      "Elephant beach"
     ],
     "category": "Beach"
   }

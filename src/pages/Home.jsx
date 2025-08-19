@@ -5,7 +5,7 @@ import DestinationCard from "../components/DestinationCard/DestinationCard";
 import PackageCard from "../components/PackageCard/PackageCard";
 import InternationalData from "../data/international.json";
 import domesticData from "../data/domestic.json";
-import image from "../assets/images/HolidayLogo.png";
+import image from "../assets/images/FounderVenu.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -294,10 +294,10 @@ const Home = () => {
       </section>
 
       {/* Founder Section */}
-      <section className="section-padding gradient-bg">
+      <section className="section h-[75vh] gradient-bg">
         <div className="container-custom grid md:grid-cols-2 gap-8 items-center">
           {/* Image */}
-          <div className="flex justify-center">
+          <div className="flex justify-center p-24  rounded-full ">
             <img
               src={image}
               alt="Mr. Venu Gopal"
@@ -306,7 +306,8 @@ const Home = () => {
           </div>
           {/* Text */}
           <div className="text-white">
-            <h2 className="text-3xl font-bold mb-4">Meet Our Founder</h2>
+            {/* <h2 className="text-3xl underline bg-gradient-to-r from-green-800 to-red-600 bg-clip-text text-transparent font-bold mb-4">Meet Our Founder</h2> */}
+            <h2 className="text-3xl underline bg-gradient-to-r from-green-800 to-red-600 bg-clip-text text-transparent font-bold mb-4">Meet Our Founder</h2>
             <p className="text-lg mb-6">
               Mr. Venu Gopal, the visionary behind Holiday Destiny, has
               dedicated over a decade to crafting unforgettable travel
@@ -316,12 +317,12 @@ const Home = () => {
               travel.
             </p>
             <div>
-              <p className="text-xl font-semibold">Mr. Venu Gopal</p>
+              <p className="text-3xl font-semibold bg-gradient-to-r from-green-800 to-red-600 bg-clip-text text-transparent">Mr. Venu Gopal</p>
               <p className="mb-2">Founder & Head of Operations</p>
-              <p>📞 9885164442 (Package/Flights/Visa)</p>
+              <p>📞 9885164442</p>
               <p>
                 ✉️{" "}
-                <a href="mailto:chitta_venu@yahoo.com" className="underline">
+                <a href="mailto:chitta_venu@yahoo.com" >
                   chitta_venu@yahoo.com
                 </a>
               </p>

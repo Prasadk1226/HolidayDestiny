@@ -1,142 +1,221 @@
 [
   {
-    "id": 1,
-    "name": "Spiritual South India",
-    "description": "Experience the divine essence of South India with visits to ancient temples, sacred pilgrimages, and cultural immersions across Tamil Nadu.",
-    "images": ["/images/madurai1.jpg", "/images/madurai2.jpg", "/images/madurai3.jpg"],
-    "price": "₹28,000",
-    "originalPrice": "₹32,000",
-    "duration": "8 days",
-    "rating": 4.8,
-    "Domestic": ["Madurai", "Rameswaram", "Kanyakumari"],
-    "includes": ["Flights", "Hotels", "Transfers", "Guided tours", "All meals"],
-    "highlights": ["Meenakshi Temple", "Ramanathaswamy Temple", "Vivekananda Rock", "Local cultural programs", "Sunset at Kanyakumari Beach"],
-    "category": "Pilgrimage"
+    "id": "Goa",
+    "name": "Goa Package",
+    "description": "Experience a 2-night, 3-day getaway to Goa, covering the beaches and historical sites of both North and South Goa. You'll get to visit places like Aguada Fort, Calangute Beach, and Shri Shantadurga Temple.",
+    "images": [
+      "/images/goa1.jpg",
+      "/images/goa2.jpg",
+      "/images/goa3.jpg"
+    ],
+    "price": "₹15,000",
+    "originalPrice": "₹18,000",
+    "duration": "3 days",
+    "rating": 4.6,
+    "Domestic": ["Goa"],
+    "includes": [
+      "Accommodation for 2 nights",
+      "Daily breakfast, lunch, and dinner",
+      "Entry tickets to parks, forts, and museums",
+      "AC vehicle for all transfers and sightseeing"
+    ],
+    "highlights": [
+      "Dolphin Point trip",
+      "Aguada Fort",
+      "Calangute Beach",
+      "Basilica of Bom Jesus"
+    ],
+    "category": "Beach"
   },
   {
-    "id": 2,
-    "name": "Kerala Backwater Bliss",
-    "description": "Discover the natural charm of Kerala with serene houseboat stays, lush spice plantations, and breathtaking hill stations for a peaceful holiday.",
-    "images": ["/images/kerala1.jpg", "/images/kerala2.jpg", "/images/kerala3.jpg"],
-    "price": "₹34,500",
-    "originalPrice": "₹39,000",
-    "duration": "7 days",
+    "id": "Gujarat",
+    "name": "Gujarat Tour Package",
+    "description": "A 5-night, 6-day tour of Gujarat covering major cities and cultural landmarks like the Statue of Unity and Akshardham temple.",
+    "images": [
+      "/images/gujarat1.jpg",
+      "/images/gujarat2.jpg",
+      "/images/gujarat3.jpg"
+    ],
+    "price": "₹25,000",
+    "originalPrice": "₹29,000",
+    "duration": "6 days",
     "rating": 4.7,
-    "Domestic": ["Alleppey", "Munnar", "Thekkady"],
-    "includes": ["Flights", "Hotels", "Houseboat stay", "Local transport", "Daily breakfast"],
-    "highlights": ["Alleppey houseboat cruise", "Munnar tea gardens", "Periyar Wildlife Sanctuary", "Traditional Kathakali show", "Spice plantation visit"],
+    "Domestic": ["Ahmedabad", "Mount Abu", "Vadodara"],
+    "includes": [
+      "AC vehicle for all transfers",
+      "Hotel accommodation in Ahmedabad, Mount Abu, and Vadodara",
+      "All meals (Breakfast, Lunch & Dinner)",
+      "Entry tickets to Statue of Unity and Science City"
+    ],
+    "highlights": [
+      "Statue of Unity",
+      "Akshardham Temple",
+      "Nakki Lake",
+      "Dilwara Jain Temple"
+    ],
     "category": "Cultural"
   },
   {
-    "id": 3,
-    "name": "Golden Triangle Heritage Tour",
-    "description": "Explore India's most iconic heritage circuit: Delhi, Agra, and Jaipur with majestic forts, grand palaces, and the stunning Taj Mahal.",
-    "images": ["/images/delhi1.jpg", "/images/agra1.jpg", "/images/jaipur1.jpg"],
-    "price": "₹38,000",
-    "originalPrice": "₹44,000",
-    "duration": "6 days",
-    "rating": 4.9,
-    "Domestic": ["Delhi", "Agra", "Jaipur"],
-    "includes": ["Flights", "Hotels", "Transfers", "Guided tours", "Daily breakfast"],
-    "highlights": ["Red Fort & Qutub Minar", "Taj Mahal at sunrise", "Amer Fort elephant ride", "City Palace & Jantar Mantar", "Chandni Chowk rickshaw ride"],
-    "category": "Heritage"
+    "id": "Himachal",
+    "name": "Himachal Tour",
+    "description": "A scenic 6-night, 7-day tour covering the popular hill stations of Manali, Shimla, and Chandigarh, with visits to snow-capped peaks and local markets.",
+    "images": [
+      "/images/himachal1.jpg",
+      "/images/himachal2.jpg",
+      "/images/himachal3.jpg"
+    ],
+    "price": "₹35,000",
+    "originalPrice": "₹40,000",
+    "duration": "7 days",
+    "rating": 4.8,
+    "Domestic": ["Shimla", "Manali", "Chandigarh"],
+    "includes": [
+      "AC Vehicle from Delhi to all places",
+      "Hotel accommodation in Chandigarh, Manali, and Shimla",
+      "Daily breakfast, lunch & dinner",
+      "All sightseeing by AC Volvo Bus"
+    ],
+    "highlights": [
+      "Rock Garden",
+      "Rohtang Pass (if open)",
+      "Hadimba Devi Temple",
+      "Kufri"
+    ],
+    "category": "Nature"
   },
   {
-    "id": 4,
-    "name": "Varanasi & Bodh Gaya Pilgrimage",
-    "description": "Walk the spiritual paths of Hinduism and Buddhism with sacred ghats, aarti ceremonies, and the revered Bodhi tree where enlightenment was found.",
-    "images": ["/images/varanasi1.jpg", "/images/bodhgaya1.jpg", "/images/varanasi2.jpg"],
-    "price": "₹26,000",
-    "originalPrice": "₹30,000",
-    "duration": "7 days",
-    "rating": 4.7,
-    "Domestic": ["Varanasi", "Bodh Gaya", "Sarnath"],
-    "includes": ["Flights", "Hotels", "Local guides", "All meals", "Transfers"],
-    "highlights": ["Ganga Aarti", "Kashi Vishwanath Temple", "Bodhi Tree & Mahabodhi Temple", "Sarnath Stupa exploration", "Boat ride on the Ganges"],
+    "id": "Kailash Mansarovar",
+    "name": "Kailash Mansarovar Yatra",
+    "description": "A 12-night, 13-day spiritual journey to Mount Kailash and Lake Manasarovar, starting and ending in Kathmandu.",
+    "images": [
+      "/images/kailash1.jpg",
+      "/images/kailash2.jpg",
+      "/images/kailash3.jpg"
+    ],
+    "price": "₹95,000",
+    "originalPrice": "₹110,000",
+    "duration": "13 days",
+    "rating": 4.9,
+    "International": ["Kathmandu", "Kyirong", "Saga"],
+    "includes": [
+      "All travel and accommodation as per the itinerary"
+    ],
+    "highlights": [
+      "Pashupatinath Temple",
+      "Mount Kailash Parikrama",
+      "Lake Manasarovar",
+      "Swayambhunath Stupa"
+    ],
     "category": "Pilgrimage"
   },
   {
-    "id": 5,
-    "name": "Royal Rajasthan Luxury Escape",
-    "description": "Live like royalty with opulent stays in heritage palaces, thrilling desert safaris, and a journey through the cultural richness of Rajasthan.",
-    "images": ["/images/jodhpur1.jpg", "/images/udaipur1.jpg", "/images/jaisalmer1.jpg"],
-    "price": "₹72,000",
-    "originalPrice": "₹85,000",
-    "duration": "10 days",
-    "rating": 4.9,
-    "Domestic": ["Jodhpur", "Udaipur", "Jaisalmer"],
-    "includes": ["Luxury hotels", "Private transfers", "Palace dinners", "Guided tours", "Camel safari"],
-    "highlights": ["Mehrangarh Fort visit", "Lake Pichola boat ride", "Thar Desert camel safari", "Jaisalmer Fort exploration", "Udaipur City Palace"],
-    "category": "Luxury"
-  },
-  {
-    "id": 6,
-    "name": "Kashmir Paradise Tour",
-    "description": "Witness heaven on earth with Srinagar's serene Dal Lake, Gulmarg's snow-capped peaks, and Pahalgam's tranquil valleys for a blissful tour.",
-    "images": ["/images/kashmir1.jpg", "/images/kashmir2.jpg", "/images/kashmir3.jpg"],
-    "price": "₹45,000",
-    "originalPrice": "₹52,000",
-    "duration": "8 days",
+    "id": "Kashmir",
+    "name": "Kashmir Tour",
+    "description": "A 5-night, 6-day tour of Kashmir, covering Srinagar, Gulmarg, and Pahalgam, with a focus on natural beauty and adventure.",
+    "images": [
+      "/images/kashmir1.jpg",
+      "/images/kashmir2.jpg",
+      "/images/kashmir3.jpg"
+    ],
+    "price": "₹40,000",
+    "originalPrice": "₹45,000",
+    "duration": "6 days",
     "rating": 4.8,
     "Domestic": ["Srinagar", "Gulmarg", "Pahalgam"],
-    "includes": ["Flights", "Hotels", "Shikara ride", "Gondola ride", "Daily breakfast"],
-    "highlights": ["Dal Lake houseboat stay", "Gulmarg gondola ride", "Betaab Valley exploration", "Mughal Gardens walk", "Shankaracharya Temple visit"],
+    "includes": [
+      "Accommodation on twin sharing basis",
+      "AC vehicle for all transfers and sightseeing",
+      "1-hour Shikara Ride on Dal Lake",
+      "Meeting and assistance on arrival/departure"
+    ],
+    "highlights": [
+      "Mughal Gardens",
+      "Shikara ride on Dal Lake",
+      "Gondola ride at Gulmarg"
+    ],
     "category": "Nature"
   },
   {
-    "id": 7,
-    "name": "North East Wonders",
-    "description": "Explore the seven sisters with Meghalaya's cascading waterfalls, Assam's peaceful tea gardens, and Arunachal's serene monasteries.",
-    "images": ["/images/shillong1.jpg", "/images/kaziranga1.jpg", "/images/tawang1.jpg"],
-    "price": "₹52,000",
-    "originalPrice": "₹61,000",
-    "duration": "12 days",
-    "rating": 4.8,
-    "Domestic": ["Shillong", "Kaziranga", "Tawang"],
-    "includes": ["Flights", "Hotels", "Jeep safari", "Transfers", "Daily breakfast"],
-    "highlights": ["Living Root Bridge Meghalaya", "Kaziranga jeep safari", "Tawang Monastery visit", "Elephant Falls viewpoint", "Umiam Lake sightseeing"],
-    "category": "Cultural"
-  },
-  {
-    "id": 8,
-    "name": "Andaman Island Adventure",
-    "description": "Discover crystal-clear beaches, vibrant coral reefs, and island hopping in the tropical paradise of the Andaman Islands.",
-    "images": ["/images/andaman1.jpg", "/images/andaman2.jpg", "/images/andaman3.jpg"],
-    "price": "₹48,000",
-    "originalPrice": "₹56,000",
-    "duration": "7 days",
+    "id": "Kerala",
+    "name": "Kerala Package",
+    "description": "A 4-night, 5-day tour of Kerala's natural beauty, covering Cochin, Munnar, and Alleppey, with a highlight on backwater houseboats.",
+    "images": [
+      "/images/kerala1.jpg",
+      "/images/kerala2.jpg",
+      "/images/kerala3.jpg"
+    ],
+    "price": "₹28,000",
+    "originalPrice": "₹32,000",
+    "duration": "5 days",
     "rating": 4.7,
-    "Domestic": ["Port Blair", "Havelock", "Neil Island"],
-    "includes": ["Flights", "Hotels", "Ferry transfers", "Scuba diving session", "Snorkeling gear"],
-    "highlights": ["Radhanagar Beach relaxation", "Cellular Jail tour", "Scuba diving at Havelock", "Glass-bottom boat ride", "Neil Island sunset viewing"],
-    "category": "Adventure"
-  },
-  {
-    "id": 9,
-    "name": "Sikkim & Darjeeling Escape",
-    "description": "Experience the beauty of the Himalayas with visits to ancient monasteries, sprawling tea gardens, and stunning Kanchenjunga views.",
-    "images": ["/images/darjeeling1.jpg", "/images/sikkim1.jpg", "/images/tsomgo1.jpg"],
-    "price": "₹42,000",
-    "originalPrice": "₹49,000",
-    "duration": "9 days",
-    "rating": 4.8,
-    "Domestic": ["Darjeeling", "Gangtok", "Nathu La Pass"],
-    "includes": ["Flights", "Hotels", "Transfers", "Guided tours", "Daily breakfast"],
-    "highlights": ["Tiger Hill sunrise", "Darjeeling toy train ride", "Rumtek Monastery visit", "Tsomgo Lake exploration", "MG Marg shopping"],
+    "Domestic": ["Cochin", "Munnar", "Alleppey"],
+    "includes": [
+      "Accommodation on double sharing basis",
+      "Daily breakfast, lunch, and dinner",
+      "AC vehicle for all transfers and sightseeing",
+      "All vehicle-related expenses"
+    ],
+    "highlights": [
+      "Valara and Cheeyappara waterfalls",
+      "Tea Plantations",
+      "Eravikulam National Park",
+      "Houseboat stay"
+    ],
     "category": "Nature"
   },
   {
-    "id": 10,
-    "name": "Gujarat Cultural Trail",
-    "description": "Uncover the rich heritage of Gujarat with its vast white deserts, encounters with Gir lions, and the sacred Somnath temple.",
-    "images": ["/images/kutch1.jpg", "/images/gir1.jpg", "/images/somnath1.jpg"],
-    "price": "₹36,000",
-    "originalPrice": "₹42,000",
-    "duration": "8 days",
+    "id": "South India Pilgrimage",
+    "name": "Kodai Madurai Rameshwaram Kanyakumari Tour",
+    "description": "A comprehensive 5-night, 6-day tour of Southern India's spiritual and natural sites, including Kodaikanal, Madurai, Rameshwaram, and Kanyakumari.",
+    "images": [
+      "/images/kodai1.jpg",
+      "/images/kodai2.jpg",
+      "/images/kodai3.jpg"
+    ],
+    "price": "₹30,000",
+    "originalPrice": "₹35,000",
+    "duration": "6 days",
     "rating": 4.7,
-    "Domestic": ["Rann of Kutch", "Gir National Park", "Somnath"],
-    "includes": ["Flights", "Hotels", "Jeep safari", "Guided tours", "All meals"],
-    "highlights": ["Rann Utsav festival", "Gir lion safari", "Somnath Jyotirlinga Darshan", "Handicrafts shopping", "Dwarka temple visit"],
+    "Domestic": ["Kodaikanal", "Madurai", "Rameshwaram", "Kanyakumari"],
+    "includes": [
+      "Accommodation on double room sharing",
+      "AC vehicle for all transfers and sightseeing",
+      "Breakfast and dinner"
+    ],
+    "highlights": [
+      "Kodaikanal Lake",
+      "Sri Meenakshi Sundareshwara temple",
+      "Ramanathaswamy Temple",
+      "Vivekananda Rock"
+    ],
+    "category": "Pilgrimage"
+  },
+  {
+    "id": "South India",
+    "name": "South India Tour",
+    "description": "A 5-night, 6-day tour of South India's major cities and attractions, including Bangalore, Mysore, and Ooty.",
+    "images": [
+      "/images/bangalore1.jpg",
+      "/images/bangalore2.jpg",
+      "/images/bangalore3.jpg"
+    ],
+    "price": "₹27,000",
+    "originalPrice": "₹31,000",
+    "duration": "6 days",
+    "rating": 4.5,
+    "Domestic": ["Bangalore", "Mysore", "Ooty"],
+    "includes": [
+      "All transfers by AC vehicle",
+      "Accommodation on triple/double sharing basis",
+      "All meals (breakfast, lunch, and dinner)",
+      "Entry fees and guide"
+    ],
+    "highlights": [
+      "Innovative Film City",
+      "Vidhan Sabha",
+      "Nandi Temple",
+      "Wonderla Park"
+    ],
     "category": "Cultural"
   }
 ]

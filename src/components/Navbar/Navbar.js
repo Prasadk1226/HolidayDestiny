@@ -246,7 +246,7 @@ const Navbar = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="text-2xl font-bold font-display gradient-text drop-shadow-lg">
+            <span className="text-2xl font-bold font-display bg-gradient-to-r from-green-800 to-red-600 bg-clip-text text-transparent drop-shadow-lg">
               Holiday Destiny
             </span>
           </Link>
