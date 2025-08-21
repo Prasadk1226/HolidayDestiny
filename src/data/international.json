@@ -2,29 +2,27 @@
   {
     "id": "Dubai",
     "name": "Dubai, UAE",
-    "description": "Discover Dubai and Abu Dhabi with iconic landmarks, thrilling desert safaris, vibrant city tours, and unforgettable views from Burj Khalifa.",
+    "description": "Discover Dubai and Abu Dhabi with iconic landmarks, thrilling desert safaris, and unforgettable views from the top of the Burj Khalifa.",
     "images": [
       "/images/international/UAE/dubai1.png",
       "/images/international/UAE/dubai2.png",
       "/images/international/UAE/dubai3.png"
-
-
     ],
     "duration": "6 days",
     "rating": 4.8,
     "highlights": [
-      "Dhow cruise marina",
-      "Dubai city tour",
-      "Desert Safari",
-      "Abu Dhabi city tour",
-      "Burj Khalifa 124th floor"
+      "Dhow Cruise Marina",
+      "Burj Khalifa Top Deck",
+      "Desert Safari with BBQ",
+      "Abu Dhabi City Tour",
+      "Sheikh Zayed Mosque"
     ],
     "category": "City"
   },
   {
-    "id": "Sri Lanka",
+    "id": "SriLanka",
     "name": "Sri Lanka",
-    "description": "Experience Sri Lanka’s beauty with cultural temples, ancient rock fortresses, lush gardens, and wildlife encounters in this island paradise journey.",
+    "description": "Experience the tropical paradise of Sri Lanka. Discover cultural temples, ancient rock fortresses, lush tea gardens, and stunning wildlife safaris.",
     "images": [
       "/images/international/Srilanka/srilanka1.png",
       "/images/international/Srilanka/srilanka2.png",
@@ -33,18 +31,18 @@
     "duration": "6 days",
     "rating": 4.9,
     "highlights": [
-      "Colombo city tour",
+      "Colombo City Tour",
       "Sigiriya Lion Rock",
-      "Dambulla Caves",
+      "Dambulla Cave Temples",
       "Temple of Tooth Relic",
-      "Peradeniya Garden"
+      "Peradeniya Botanical Garden"
     ],
     "category": "Adventure"
   },
   {
     "id": "Almaty",
     "name": "Almaty, Kazakhstan",
-    "description": "Explore Almaty with a scenic city tour, bustling bazaars, breathtaking mountains, and natural landscapes that showcase Kazakhstan’s charm and culture.",
+    "description": "Explore Almaty, Kazakhstan, with a scenic city tour, bustling bazaars, breathtaking mountains, and landscapes that showcase the country's unique charm.",
     "images": [
       "/images/international/kazakisthan/kazakisthan1.png",
       "/images/international/kazakisthan/kazakisthan2.png",
@@ -54,38 +52,37 @@
     "rating": 4.5,
     "highlights": [
       "Almaty City Tour",
-      "Green Bazaar",
-      "Shymbulak Resort",
-      "Kok-Tobe Hill",
-      "Arasan Gorge"
+      "Green Bazaar Visit",
+      "Shymbulak Mountain",
+      "Kok-Tobe Hill Ride",
+      "Arasan Gorge Hiking"
     ],
     "category": "Mountain"
   },
   {
-    "id": "Europe & London",
+    "id": "EuropeLondon",
     "name": "Europe & London",
-    "description": "Travel across Europe and London with famous attractions, stunning architecture, and cultural experiences from Paris to Rome in one adventure.",
+    "description": "Travel across Europe and London, visiting famous attractions, stunning architecture, and experiencing a journey from romantic Paris to historic Rome.",
     "images": [
       "/images/international/europe/europe1.png",
       "/images/international/europe/europe2.png",
       "/images/international/europe/europe3.png"
-
     ],
     "duration": "16 days",
     "rating": 5.0,
     "highlights": [
-      "London Eye",
-      "Eiffel Tower",
-      "Disneyland Paris",
-      "Mount Titlis",
-      "Colosseum Rome"
+      "London Eye View",
+      "Eiffel Tower Ascent",
+      "Disneyland Paris Fun",
+      "Mount Titlis Excursion",
+      "Colosseum Rome Tour"
     ],
     "category": "City"
   },
   {
     "id": "Baku",
     "name": "Baku, Azerbaijan",
-    "description": "Visit Baku’s blend of medieval old city and futuristic architecture, while enjoying rich culture, history, and scenic tours of nearby regions.",
+    "description": "Visit Baku, a city that blends medieval old city with futuristic architecture. Enjoy a rich culture and history with scenic tours.",
     "images": [
       "/images/international/Baku/baku1.png",
       "/images/international/Baku/baku2.png",
@@ -95,9 +92,9 @@
     "rating": 4.5,
     "highlights": [
       "Baku City Tour",
-      "Absheron Tour",
-      "Gobustan Tour",
-      "Gabala Day Tour",
+      "Absheron Peninsula",
+      "Gobustan Rock Art",
+      "Gabala Day Trip",
       "Heydar Aliyev Center"
     ],
     "category": "City"
@@ -105,20 +102,19 @@
   {
     "id": "Vietnam",
     "name": "Vietnam",
-    "description": "Discover Vietnam with cultural landmarks, serene bays, bustling cities, and iconic bridges, blending modern lifestyle with ancient traditions beautifully.",
+    "description": "Discover the beautiful landscapes of Vietnam, from cultural landmarks and serene bays to bustling cities and the iconic Golden Hand Bridge.",
     "images": [
       "/images/international/vietnam/vietnam1.png",
       "/images/international/vietnam/vietnam2.png",
       "/images/international/vietnam/vietnam3.png"
-
     ],
     "duration": "7 days",
     "rating": 4.6,
     "highlights": [
-      "Hanoi city tour",
+      "Hanoi City Tour",
       "Ha Long Bay Cruise",
-      "Golden Hand Bridge",
-      "Da Nang Tour",
+      "Golden Hands Bridge",
+      "Da Nang City Exploration",
       "Ho Chi Minh City"
     ],
     "category": "Adventure"
@@ -126,7 +122,7 @@
   {
     "id": "Bali",
     "name": "Bali, Indonesia",
-    "description": "Enjoy Bali’s tropical charm with island tours, traditional dances, temple visits, and thrilling water sports, all set in scenic paradise views.",
+    "description": "Enjoy Bali’s tropical charm with island tours, traditional dances, stunning temple visits, and thrilling water sports in a scenic paradise.",
     "images": [
       "/images/international/Bali/bali1.png",
       "/images/international/Bali/bali2.png",
@@ -135,18 +131,18 @@
     "duration": "6 days",
     "rating": 4.8,
     "highlights": [
-      "Water sports Tanjung Benoa",
-      "Uluwatu Temple",
-      "Nusa Penida Tour",
-      "Ubud Market",
-      "Kintamani Volcano"
+      "Water Sports Tanjung Benoa",
+      "Uluwatu Temple Visit",
+      "Nusa Penida Day Tour",
+      "Ubud Market Shopping",
+      "Kintamani Volcano View"
     ],
     "category": "Beach"
   },
   {
     "id": "Andaman",
     "name": "Andaman Package",
-    "description": "A 4-night, 5-day tour to the Andaman Islands, covering Port Blair and Havelock Island, with visits to Corbyn's Cove beach and a trip to the scenic Elephant beach.",
+    "description": "A 4-night, 5-day tour to the Andaman Islands. Discover Port Blair and Havelock Island with visits to Corbyn's Cove beach and scenic Elephant beach.",
     "images": [
       "/images/international/Andaman/andaman1.png",
       "/images/international/Andaman/andaman2.png",
@@ -155,18 +151,100 @@
     "duration": "5 days",
     "rating": 4.7,
     "Domestic": ["Port Blair", "Havelock Island"],
-    "includes": [
-      "Hotel accommodation in Port Blair and Havelock Island",
-      "Local representative and vehicle for transfers and sightseeing",
-      "Packed breakfast from the hotel",
-      "Speedboat trip to Elephant beach"
-    ],
     "highlights": [
-      "Corbyn's Cove beach",
+      "Corbyn's Cove Beach",
       "Light & Sound Show",
-      "Radha nagar beach",
-      "Elephant beach"
+      "Radhanagar Beach",
+      "Elephant Beach",
+      "Cellular Jail"
     ],
     "category": "Beach"
+  },
+  {
+    "id": "ChardhamYatra",
+    "name": "Chardham Yatra",
+    "description": "Embark on an 11-night, 12-day spiritual journey to the sacred Char Dhams of Uttarakhand for a truly divine pilgrimage experience.",
+    "images": [
+      "/images/Domestic/Chardham/Chardham1.png",
+      "/images/Domestic/Chardham/Chardham2.png",
+      "/images/Domestic/Chardham/Chardham3.png"
+    ],
+    "duration": "12 days",
+    "rating": 4.9,
+    "highlights": [
+      "Ganga Aarti in Haridwar",
+      "Yamunotri Temple Visit",
+      "Gangotri Temple Visit",
+      "Kedarnath Temple Trek",
+      "Badrinath Temple View"
+    ],
+    "category": "Pilgrimage"
+  },
+  {
+    "id": "SingaporeMalaysia",
+    "name": "Singapore & Malaysia Tour",
+    "description": "A 5-night, 6-day holiday to Singapore and Malaysia. Includes a two-night cruise and visits to Universal Studios, Sentosa Island, and Gardens by the Bay.",
+    "images": [
+      "/images/international/singapore/singapore1.png",
+      "/images/international/singapore/singapore2.png",
+      "/images/international/singapore/singapore3.png"
+    ],
+    "price": "₹65,000",
+    "originalPrice": "₹72,000",
+    "duration": "6 days",
+    "rating": 4.7,
+    "International": ["Singapore", "Malaysia"],
+    "highlights": [
+      "Night Safari",
+      "Universal Studios",
+      "Gardens by the Bay",
+      "Sentosa Island",
+      "Batu Caves"
+    ],
+    "category": "City"
+  },
+  {
+    "id": "Thailand",
+    "name": "Thailand Tour",
+    "description": "Explore Thailand on a 4-night, 5-day tour of Pattaya and Bangkok. Highlights include Coral Island, Nong Nooch Village, and iconic city temples.",
+    "images": [
+      "/images/international/thailand/thailand1.png",
+      "/images/international/thailand/thailand2.png",
+      "/images/international/thailand/thailand3.png"
+    ],
+    "price": "₹45,000",
+    "originalPrice": "₹50,000",
+    "duration": "5 days",
+    "rating": 4.6,
+    "International": ["Pattaya", "Bangkok"],
+    "highlights": [
+      "Alcazar Show",
+      "Coral Island",
+      "Nong Nooch Village",
+      "Golden Buddha Temple",
+      "Wat Arun"
+    ],
+    "category": "Beach & City"
+  },
+  {
+    "id": "Nepal",
+    "name": "Nepal Tour",
+    "description": "An 8-night, 9-day tour to Nepal, visiting the spiritual heart of Kathmandu and the scenic beauty of Pokhara for a holistic experience.",
+    "images": [
+      "/images/international/nepal/nepal1.png",
+      "/images/international/nepal/nepal2.png",
+      "/images/international/nepal/nepal3.png"
+    ],
+    "duration": "9 days",
+    "rating": 4.8,
+    "International": ["Kathmandu", "Pokhara"],
+    "highlights": [
+      "Pashupatinath Temple",
+      "Manakamana Temple",
+      "Sarangkot Hill Sunrise",
+      "Phewa Lake",
+      "Muktinath Temple"
+    ],
+    "category": "Pilgrimage"
   }
 ]

@@ -210,6 +210,7 @@ const Navbar = () => {
     { path: "/about", label: "About", anchor: "about" },
     { path: "/international", label: "International", anchor: "International" },
     { path: "/domestic", label: "Domestic", anchor: "domestic" },
+    { path: "/services", label: "Services", anchor: "services" },
     { path: "/gallery", label: "Gallery", anchor: "gallery" },
     { path: "/contact", label: "Contact", anchor: "contact" },
   ];

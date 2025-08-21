@@ -253,7 +253,7 @@ const About = () => {
       <section
         className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
         style={{
-          backgroundImage: `url(${"https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg"})`,
+          backgroundImage: `url(${image})`,
         }}
       >
         {/* Black overlay */}

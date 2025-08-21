@@ -13,7 +13,7 @@ const PackageCard = ({ package: travelPackage }) => {
     id,
     name,
     description,
-    image,
+    images,
     price,
     originalPrice,
     duration,
@@ -25,7 +25,7 @@ const PackageCard = ({ package: travelPackage }) => {
   } = travelPackage;
 
   // Convert single image to array for consistency and create a carousel effect
-  const gallery = Array.isArray(image) ? image : [image];
+  const gallery = Array.isArray(images) ? images : [images];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

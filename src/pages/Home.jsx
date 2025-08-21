@@ -243,55 +243,55 @@
 //       </section>
 
 //       {/* Gallery Section */}
-//       <section id="gallery" className="section-padding bg-white">
-//         <div className="container-custom">
-//           <div className="text-center mb-16">
-//             <h2 className="text-4xl md:text-5xl font-bold font-display mb-4">
-//               Travel <span className="gradient-text">Gallery</span>
-//             </h2>
-//             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-//               Explore stunning destinations through our curated collection of
-//               travel photos
-//             </p>
-//           </div>
+      // <section id="gallery" className="section-padding bg-white">
+      //   <div className="container-custom">
+      //     <div className="text-center mb-16">
+      //       <h2 className="text-4xl md:text-5xl font-bold font-display mb-4">
+      //         Travel <span className="gradient-text">Gallery</span>
+      //       </h2>
+      //       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+      //         Explore stunning destinations through our curated collection of
+      //         travel photos
+      //       </p>
+      //     </div>
 
-//           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-//             {[
-//               "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-//               "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      //       {[
+      //         "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      //         "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
               
-//             ].map((image, index) => (
-//               <div
-//                 key={index}
-//                 className="group relative overflow-hidden rounded-xl cursor-pointer"
-//               >
-//                 <img
-//                   src={image}
-//                   alt={`Gallery image ${index + 1}`}
-//                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
-//                 />
-//                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                   <div className="absolute bottom-4 left-4 text-white">
-//                     <h3 className="text-lg font-bold">Beautiful Destination</h3>
-//                   </div>
-//                 </div>
-//               </div>
-//             ))}
-//           </div>
+      //       ].map((image, index) => (
+      //         <div
+      //           key={index}
+      //           className="group relative overflow-hidden rounded-xl cursor-pointer"
+      //         >
+      //           <img
+      //             src={image}
+      //             alt={`Gallery image ${index + 1}`}
+      //             className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+      //           />
+      //           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      //             <div className="absolute bottom-4 left-4 text-white">
+      //               <h3 className="text-lg font-bold">Beautiful Destination</h3>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       ))}
+      //     </div>
 
-//           <div className="text-center mt-12">
-//             <a href="/gallery" className="btn-primary text-lg px-8 py-4">
-//               View Full Gallery
-//             </a>
-//           </div>
-//         </div>
-//       </section>
+      //     <div className="text-center mt-12">
+      //       <a href="/gallery" className="btn-primary text-lg px-8 py-4">
+      //         View Full Gallery
+      //       </a>
+      //     </div>
+      //   </div>
+      // </section>
 
 //       {/* Founder Section */}
 //       {/* Meet the Founder Section - Made Responsive */}
@@ -428,6 +428,7 @@
 
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import Hero from "../components/Hero/Hero";
 import DestinationCard from "../components/DestinationCard/DestinationCard";
 import PackageCard from "../components/PackageCard/PackageCard";
@@ -436,11 +437,13 @@ import domesticData from "../data/domestic.json";
 import image from "../assets/images/FounderVenu.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { images as GalleryImages } from './Gallery.jsx';
 
 
 const Home = () => {
   const featuredInternational = InternationalData;
   const featuredDomestic = domesticData;
+  const imagesToDisplay = GalleryImages.slice(0, 8);
 
   const responsiveSettings = {
     superLargeDesktop: {
@@ -607,7 +610,7 @@ const Home = () => {
               customTransition="all .5s linear"
               transitionDuration={2000}
               containerClass="carousel-container"
-              itemClass="carousel-item-padding-40-px"
+              itemClass="carousel-item-padding-40-px cursor-grab select-none"
               renderButtonGroupOutside={true}
             >
               {featuredInternational.map((destination) => (
@@ -650,7 +653,7 @@ const Home = () => {
               customTransition="all .5s linear"
               transitionDuration={2000} // Increased from 300ms to 2000ms for a smoother slide
               containerClass="carousel-container"
-              itemClass="carousel-item-padding-40-px"
+              itemClass="carousel-item-padding-40-px cursor-grab select-none"
               renderButtonGroupOutside={true}
             >
               {featuredDomestic.map((packageItem) => (
@@ -671,54 +674,44 @@ const Home = () => {
 
       {/* Gallery Section */}
       <section id="gallery" className="section-padding bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold font-display mb-4">
-              Travel <span className="gradient-text">Gallery</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore stunning destinations through our curated collection of
-              travel photos
-            </p>
-          </div>
+  <div className="container-custom">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-bold font-display mb-4">
+        Travel <span className="gradient-text">Gallery</span>
+      </h2>
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        Explore stunning destinations through our curated collection of travel
+        photos
+      </p>
+    </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-              
-            ].map((image, index) => (
-              <div
-                key={index}
-                className="group relative overflow-hidden rounded-xl cursor-pointer"
-              >
-                <img
-                  src={image}
-                  alt={`Gallery image ${index + 1}`}
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 text-white">
-                    <h3 className="text-lg font-bold">Beautiful Destination</h3>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-12">
-            <a href="/gallery" className="btn-primary text-lg px-8 py-4">
-              View Full Gallery
-            </a>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {imagesToDisplay.map((image) => (
+        <div
+          key={image.id}
+          className="group relative overflow-hidden rounded-xl cursor-pointer"
+        >
+          <img
+            src={image.src}
+            alt={image.alt}
+            className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute bottom-4 left-4 text-white">
+              <h3 className="text-lg font-bold">{image.title}</h3>
+            </div>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+
+    <div className="text-center mt-12">
+      <Link to="/gallery" className="btn-primary text-lg px-8 py-4">
+        View Full Gallery
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* Founder Section */}
       <section className="py-16 md:py-24 bg-gradient-to-r from-red-500 to-white text-gray-800">

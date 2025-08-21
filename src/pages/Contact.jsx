@@ -55,9 +55,9 @@
 //     try {
 //       // Simulate API call
 //       await new Promise(resolve => setTimeout(resolve, 2000));
-      
+
 //       console.log('Form submitted:', formData);
-      
+
 //       setSubmitStatus('success');
 //       setFormData({
 //         firstName: '',
@@ -87,7 +87,7 @@
 //       </Helmet>
 
 //       {/* Hero Section */}
-//       <section 
+//       <section
 //       className="bg-cover bg-center text-white min-h-[45vh] flex items-center"
 //       // style={{ backgroundImage: `url(${yourBackgroundImage})` }} // 2. Use the imported image in an inline style object
 //       style={{ backgroundImage: `url(${'https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg'})` }}
@@ -109,7 +109,7 @@
 //             {/* Contact Form */}
 //             <div>
 //               <h2 className="text-3xl font-bold text-gray-800 mb-6">Send us a Message</h2>
-              
+
 //               <form onSubmit={handleSubmit} className="space-y-6">
 //                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 //                   <div>
@@ -294,8 +294,8 @@
 
 //                 {submitStatus && (
 //                   <div className={`p-4 rounded-lg ${
-//                     submitStatus === 'success' 
-//                       ? 'bg-green-50 border border-green-200 text-green-800' 
+//                     submitStatus === 'success'
+//                       ? 'bg-green-50 border border-green-200 text-green-800'
 //                       : 'bg-red-50 border border-red-200 text-red-800'
 //                   }`}>
 //                     {submitStatus === 'success' ? (
@@ -327,7 +327,7 @@
 //             {/* Contact Information */}
 //             <div>
 //               <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Information</h2>
-              
+
 //               <div className="space-y-6">
 //                 <div className="flex items-start gap-4 p-6 bg-gray-50 rounded-lg">
 //                   <div className="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -391,46 +391,49 @@
 
 // export default Contact;
 
-
-
-import React, { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
-import { EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import React, { useState } from "react";
+import { Helmet } from "react-helmet-async";
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
+import banner from "../assets/images/hero-banner.jpg";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-    travelType: '',
-    travelDate: '',
-    numberOfTravelers: ''
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+    travelType: "",
+    travelDate: "",
+    numberOfTravelers: "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const travelTypes = [
-    'Beach Vacation',
-    'Mountain Adventure',
-    'City Break',
-    'Cultural Tour',
-    'Luxury Escape',
-    'Adventure Sports',
-    'Honeymoon',
-    'Family Trip',
-    'Business Travel',
-    'Other'
+    "Beach Vacation",
+    "Mountain Adventure",
+    "City Break",
+    "Cultural Tour",
+    "Luxury Escape",
+    "Adventure Sports",
+    "Honeymoon",
+    "Family Trip",
+    "Business Travel",
+    "Other",
   ];
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -441,24 +444,24 @@ const Contact = () => {
 
     try {
       // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      console.log('Form submitted:', formData);
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      console.log("Form submitted:", formData);
 
-      setSubmitStatus('success');
+      setSubmitStatus("success");
       setFormData({
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-        travelType: '',
-        travelDate: '',
-        numberOfTravelers: ''
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+        travelType: "",
+        travelDate: "",
+        numberOfTravelers: "",
       });
     } catch (error) {
-      console.error('Error submitting form:', error);
-      setSubmitStatus('error');
+      console.error("Error submitting form:", error);
+      setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
     }
@@ -476,25 +479,26 @@ const Contact = () => {
 
       {/* Hero Section */}
       <section
-  className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
-  style={{
-    backgroundImage: `url('https://codewithsadee.github.io/tourly/assets/images/hero-banner.jpg')`
-  }}
->
-  {/* Black overlay with absolute positioning */}
-  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-  <div className="container-custom text-center relative z-10">
-    <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
-      Get in{' '}
-      <span className="gradient-text bg-clip-text text-transparent">
-        Touch
-      </span>
-    </h1>
-    <p className="text-xl text-white/90 max-w-2xl mx-auto">
-      Ready to start your next adventure? Let us help you plan the perfect trip!
-    </p>
-  </div>
-</section>
+        className="relative bg-cover bg-center text-white min-h-[55vh] flex items-center"
+        style={{
+          backgroundImage: `url(${banner})`,
+        }}
+      >
+        {/* Black overlay with absolute positioning */}
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="container-custom text-center relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold font-display mb-6">
+            Get in{" "}
+            <span className="gradient-text bg-clip-text text-transparent">
+              Touch
+            </span>
+          </h1>
+          <p className="text-xl text-white/90 max-w-2xl mx-auto">
+            Ready to start your next adventure? Let us help you plan the perfect
+            trip!
+          </p>
+        </div>
+      </section>
 
       {/* Contact Form Section */}
       <section className="section-padding bg-white">
@@ -502,12 +506,17 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold gradient-text mb-6">Send us a Message</h2>
+              <h2 className="text-3xl font-bold gradient-text mb-6">
+                Send us a Message
+              </h2>
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="firstName"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       First Name *
                     </label>
                     <input
@@ -522,7 +531,10 @@ const Contact = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="lastName"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Last Name *
                     </label>
                     <input
@@ -540,7 +552,10 @@ const Contact = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Email Address *
                     </label>
                     <input
@@ -555,7 +570,10 @@ const Contact = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Phone Number
                     </label>
                     <input
@@ -572,7 +590,10 @@ const Contact = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="travelType" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="travelType"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Type of Travel
                     </label>
                     <select
@@ -583,7 +604,7 @@ const Contact = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
                     >
                       <option value="">Select travel type</option>
-                      {travelTypes.map(type => (
+                      {travelTypes.map((type) => (
                         <option key={type} value={type}>
                           {type}
                         </option>
@@ -591,7 +612,10 @@ const Contact = () => {
                     </select>
                   </div>
                   <div>
-                    <label htmlFor="travelDate" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="travelDate"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Preferred Travel Date
                     </label>
                     <input
@@ -606,7 +630,10 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="numberOfTravelers" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="numberOfTravelers"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Number of Travelers
                   </label>
                   <input
@@ -623,7 +650,10 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Subject *
                   </label>
                   <input
@@ -639,7 +669,10 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Message *
                   </label>
                   <textarea
@@ -665,19 +698,19 @@ const Contact = () => {
                       Sending...
                     </>
                   ) : (
-                    'Send Message'
+                    "Send Message"
                   )}
                 </button>
 
                 {submitStatus && (
                   <div
                     className={`p-4 rounded-lg ${
-                      submitStatus === 'success'
-                        ? 'bg-green-50 border border-green-200 text-green-800'
-                        : 'bg-red-50 border border-red-200 text-red-800'
+                      submitStatus === "success"
+                        ? "bg-green-50 border border-green-200 text-green-800"
+                        : "bg-red-50 border border-red-200 text-red-800"
                     }`}
                   >
-                    {submitStatus === 'success' ? (
+                    {submitStatus === "success" ? (
                       <div className="flex items-center gap-3">
                         <svg
                           className="w-5 h-5 text-green-600"
@@ -691,9 +724,12 @@ const Contact = () => {
                           />
                         </svg>
                         <div>
-                          <h4 className="font-semibold">Message Sent Successfully!</h4>
+                          <h4 className="font-semibold">
+                            Message Sent Successfully!
+                          </h4>
                           <p className="text-sm">
-                            Thank you for contacting us. We'll get back to you within 24 hours.
+                            Thank you for contacting us. We'll get back to you
+                            within 24 hours.
                           </p>
                         </div>
                       </div>
@@ -711,9 +747,12 @@ const Contact = () => {
                           />
                         </svg>
                         <div>
-                          <h4 className="font-semibold">Something went wrong</h4>
+                          <h4 className="font-semibold">
+                            Something went wrong
+                          </h4>
                           <p className="text-sm">
-                            Please try again or contact us directly at enquiry@holidaydestiny.co.in
+                            Please try again or contact us directly at
+                            enquiry@holidaydestiny.co.in
                           </p>
                         </div>
                       </div>
@@ -725,7 +764,9 @@ const Contact = () => {
 
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold gradient-text mb-6">Contact Information</h2>
+              <h2 className="text-3xl font-bold gradient-text mb-6">
+                Contact Information
+              </h2>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4 p-6 bg-gray-50 rounded-lg">
@@ -733,9 +774,15 @@ const Contact = () => {
                     <EnvelopeIcon className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">enquiry@holidaydestiny.co.in</p>
-                    <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                      Email
+                    </h3>
+                    <p className="text-gray-600">
+                      enquiry@holidaydestiny.co.in
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      We'll respond within 24 hours
+                    </p>
                   </div>
                 </div>
 
@@ -744,9 +791,13 @@ const Contact = () => {
                     <PhoneIcon className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-800 mb-1">Phone</h3>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                      Phone
+                    </h3>
                     <p className="text-gray-600">+91 98765 43210</p>
-                    <p className="text-sm text-gray-500">Available during working hours</p>
+                    <p className="text-sm text-gray-500">
+                      Available during working hours
+                    </p>
                   </div>
                 </div>
 
@@ -755,9 +806,15 @@ const Contact = () => {
                     <MapPinIcon className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-800 mb-1">Address</h3>
-                    <p className="text-gray-600">123 Travel Street, Adventure City, India</p>
-                    <p className="text-sm text-gray-500">Visit us during office hours</p>
+                    <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                      Address
+                    </h3>
+                    <p className="text-gray-600">
+                      123 Travel Street, Adventure City, India
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      Visit us during office hours
+                    </p>
                   </div>
                 </div>
               </div>
