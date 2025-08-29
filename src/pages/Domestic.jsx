@@ -294,7 +294,7 @@ import { Helmet } from 'react-helmet-async';
 import { useSearchParams } from 'react-router-dom';
 import PackageCard from '../components/PackageCard/PackageCard';
 import domesticData from '../data/domestic.json';
-import banner from "../assets/images/hero-banner.jpg";
+import banner from "../assets/images/domestic-banner.jpg";
 
 
 const Domestic = () => {

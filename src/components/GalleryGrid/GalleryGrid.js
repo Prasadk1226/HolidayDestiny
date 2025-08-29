@@ -96,6 +96,7 @@ const GalleryGrid = ({ images = [], title = "Travel Gallery" }) => {
   const [filter, setFilter] = useState('all');
 
   const allImages = [
+    { id: '56', src: image56, alt: 'Image 56', category: 'adventure', title: 'Adventure View' },
     { id: '1', src: image1, alt: 'Image 1', category: 'beach', title: 'Beach View' },
     { id: '2', src: image2, alt: 'Image 2', category: 'mountain', title: 'Mountain View' },
     { id: '3', src: image3, alt: 'Image 3', category: 'city', title: 'City View' },
@@ -151,7 +152,6 @@ const GalleryGrid = ({ images = [], title = "Travel Gallery" }) => {
     { id: '53', src: image53, alt: 'Image 53', category: 'adventure', title: 'Adventure View' },
     { id: '54', src: image54, alt: 'Image 54', category: 'luxury', title: 'Luxury View' },
     { id: '55', src: image55, alt: 'Image 55', category: 'city', title: 'City View' },
-    { id: '56', src: image56, alt: 'Image 56', category: 'adventure', title: 'Adventure View' },
     { id: '57', src: image57, alt: 'Image 57', category: 'beach', title: 'Beach View' },
     { id: '58', src: image58, alt: 'Image 58', category: 'mountain', title: 'Mountain View' },
     { id: '59', src: image59, alt: 'Image 59', category: 'city', title: 'City View' },

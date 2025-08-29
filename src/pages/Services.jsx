@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import banner from "../assets/images/hero-banner.jpg";
+import banner from "../assets/images/services-banner.jpg";
 
 const Services = () => {
   const services = [

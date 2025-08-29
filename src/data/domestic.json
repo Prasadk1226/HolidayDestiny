@@ -137,6 +137,64 @@
     ],
     "category": "Nature"
   },
+{
+    "id": "Andaman",
+    "name": "Andaman Package",
+    "description": "A 4-night, 5-day tour to the Andaman Islands. Discover Port Blair and Havelock Island with visits to Corbyn's Cove beach and scenic Elephant beach. Truly a tropical paradise with pristine beaches and clear waters.",
+    "images": [
+      "/images/international/Andaman/andaman1.png",
+      "/images/international/Andaman/andaman2.png",
+      "/images/international/Andaman/andaman3.png"
+    ],
+    "price": "₹28,000",
+    "originalPrice": "₹32,000",
+    "duration": "5 days",
+    "rating": 4.7,
+    "Domestic": ["Port Blair", "Havelock Island"],
+    "includes": [
+      "Accommodation on twin-sharing basis",
+      "All island transfers",
+      "Breakfast and Dinner",
+      "Airport meet & greet assistance"
+    ],
+    "highlights": [
+      "Corbyn's Cove Beach",
+      "Light & Sound Show",
+      "Radhanagar Beach",
+      "Elephant Beach",
+      "Cellular Jail"
+    ],
+    "category": "Beach"
+  },
+  {
+    "id": "ChardhamYatra",
+    "name": "Chardham Yatra",
+    "description": "Embark on an 11-night, 12-day spiritual journey to the sacred Char Dhams of Uttarakhand for a truly divine pilgrimage experience. A journey of faith through breathtaking Himalayan landscapes.",
+    "images": [
+      "/images/Domestic/Chardham/Chardham1.png",
+      "/images/Domestic/Chardham/Chardham2.png",
+      "/images/Domestic/Chardham/Chardham3.png"
+    ],
+    "price": "₹35,000",
+    "originalPrice": "₹40,000",
+    "duration": "12 days",
+    "rating": 4.9,
+    "Domestic": ["Haridwar", "Yamunotri", "Gangotri", "Kedarnath", "Badrinath"],
+    "includes": [
+      "Accommodation in Dharamshala/ashrams",
+      "All meals (vegetarian)",
+      "Transportation for the entire pilgrimage",
+      "Experienced guide for assistance"
+    ],
+    "highlights": [
+      "Ganga Aarti in Haridwar",
+      "Yamunotri Temple Visit",
+      "Gangotri Temple Visit",
+      "Kedarnath Temple Trek",
+      "Badrinath Temple View"
+    ],
+    "category": "Pilgrimage"
+  },
   {
     "id": "Kerala",
     "name": "Kerala Package",
